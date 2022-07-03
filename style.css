@@ -1,0 +1,81 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+body {
+    background-color: #557baab9;
+}
+
+.header {
+    display: block;
+    position: fixed;
+    position: top;
+    text-align: right;
+    padding: 20px 20px 20px 0px;
+    background: #053978;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    line-height: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+a:visited {
+    color: white;
+}
+  
+.center {
+    text-align: center;
+} 
+
+.image {
+    height: 480px;
+    width: 380px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#figcaption {
+    text-align: center;
+    size: 10px;    
+}
+
+.contact {
+    text-align: center;
+    background: #1f2833;
+    padding: 5px 20px;
+    color: white;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input[type=text], select, textarea {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+input[type=submit] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    background-color: white;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: #053978;
+    color: white;
+    font-size: 12px;
+}
